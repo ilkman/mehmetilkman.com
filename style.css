@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #011c40;
+    color: white;
+    text-align: center;
+
+}
+
+.photo {
+    margin-top: 8rem;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    border: white solid 2px;
+    transition: border 1s;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.unvan {
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.trusted-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.img img {
+    width: 90px;
+    opacity: 50%;
+    margin-left: 3rem;
+    transition: opacity 1s;
+}
+
+.img img:hover {
+    opacity: 100%;
+}
+
+.img {
+    margin-top: 1rem;
+}
+
+.little {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #013540;
+}
+
+::selection {
+    color: white;
+    background: #013540;
+}
+
+.socials-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: color 1s;
+
+}
+
+i:hover {
+    color: #013540;
+
+
+}
