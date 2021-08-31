@@ -65,12 +65,12 @@ body {
 ::-moz-selection {
     /* Code for Firefox */
     color: white;
-    background: #013540;
+    background: #84596B;
 }
 
 ::selection {
     color: white;
-    background: #013540;
+    background: #84596B;
 }
 
 .socials-title {
@@ -89,7 +89,12 @@ i {
 }
 
 i:hover {
-    color: #013540;
+    color: #84596B;
 
 
+}
+
+span {
+    text-decoration: underline yellow dotted;
+    text-decoration-thickness: 2px;
 }
